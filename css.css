@@ -1,0 +1,209 @@
+/* this css file is for index.html, shopping_card.html*/
+body{
+    width: 100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#name{
+    margin: 0 0 20px 730px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: "Bodoni MT", "Times New Roman", serif;
+    font-size: 22px;
+}
+.menu{
+   background-color:white;
+    width: 1519px;
+    border-bottom: 1px solid black;
+    border-bottom-color: #b6b6b6;
+    padding-bottom: 25px;
+}
+.menu #first div:last-of-type{
+display: inline-block;
+    padding-bottom: 10px;
+}
+#links{
+margin-left: 670px;
+    font-size: 15px;
+}
+a{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:active a:hover{
+font-weight: bold;
+}
+#bag{
+    height: 20px;
+    width: 24px;
+}
+div #second{
+    display: inline-block;
+    float: right;
+    margin-top: -60px;
+    padding-right: 10px;
+}
+div #third{
+    display: inline-block;
+    float: right;
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+#third .search-container button {
+    float: right;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: -7px;
+    margin-left: -8px;
+    margin-right: -5px;
+    width: 34px;
+}
+#third .search-container input{
+    width: 140px;
+}
+input[type=text] {
+    border: 1px solid #ccc;
+
+}
+.search{
+    width: 33px;
+    height: 35px;
+}
+
+/* main part*/
+.main{
+    height: 750px;
+    margin-left: 65px;
+    margin-right: 50px;
+    margin-top: 70px;
+
+}
+#main_the_second{
+    background-image: url("images/backgrounds/main_background.jpg");
+    background-repeat: repeat-x;
+    width: 1390px;
+    height: 950px;
+}
+#main_the_second #heading #text #pic {
+    display: inline-block;
+}
+#main_picture{
+    height:500px ;
+    float: right;
+    width: 450px;
+    margin-right: 70px;
+   margin-top: 60px;
+
+}
+#heading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Calisto MT", "Times New Roman", serif;
+    margin-left: 70px;
+    margin-top: 65px;
+    letter-spacing: 1px;
+}
+#text{
+    margin-top: 300px;
+    width: 450px;
+    font-family: "Calisto MT", "Times New Roman", serif;
+    font-size: 18px;
+    margin-left: 70px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+section{
+    float: left;
+}
+#shop_now{
+    font-family: "Calisto MT", "Times New Roman", serif;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+#shop_now a{
+    text-decoration: none;
+}
+#shop_now a:hover{
+    font-style: italic;
+}
+/* footer */
+footer{
+    height: auto;
+    width: 1520px;
+    border-top: 1px solid #b6b6b6;
+    padding-top: 20px;
+}
+#first_part .search-container button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    margin-left: -8px;
+    padding-top: -10px;
+    width: 34px;
+}
+#first_part{
+    float: left;
+    display: inline-block;
+    margin-left: 40px;
+}
+#second_part{
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.main2{
+    height: 420px;
+    padding-left: 85px;
+    padding-right: 50px;
+    padding-top: 100px;
+    font-family: "Calisto MT", "Times New Roman", serif;
+    letter-spacing: 1px;
+    background-color: #cfb79a;
+    width: 1519px;
+}
+#paragraph_one{
+    font-size: 21px;
+}
+#paragraph_two{
+    font-size: 15px;
+}
+#cs{
+    border: 1px solid black;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    font-weight: bold;
+}
+/* for account.html*/
+#left{
+    display: inline-block;
+    width: 400px;
+}
+#left img{
+    display: inline-block;
+    height: 500px;
+}
+#right{
+  width: 700px;
+}
+ #right #form form{
+    display: inline-block;
+    float: right;
+     margin-top: -400px;
+
+}
+#form form label{
+     width: 450px;
+ }

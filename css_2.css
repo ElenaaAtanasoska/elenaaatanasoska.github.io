@@ -1,0 +1,158 @@
+/* this css file is for shop.html, rings.html, bracelet.html
+necklace.html*/
+body{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+#name{
+    margin: 0 0 20px 730px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: "Bodoni MT", "Times New Roman", serif;
+    font-size: 22px;
+}
+.menu{
+    background-color:white;
+    width: 1519px;
+    border-bottom: 1px solid black;
+    border-bottom-color: #b6b6b6;
+    padding-bottom: 25px;
+}
+.menu #first div:last-of-type{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+#links{
+    margin-left: 670px;
+    font-size: 15px;
+}
+a{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:active a:hover{
+    font-weight: bold;
+}
+#bag{
+    height: 20px;
+    width: 24px;
+}
+div #second{
+    display: inline-block;
+    float: right;
+    margin-top: -60px;
+    padding-right: 10px;
+}
+div #third{
+    display: inline-block;
+    float: right;
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+#third .search-container button {
+    float: right;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: -7px;
+    margin-left: -8px;
+    margin-right: -5px;
+    width: 34px;
+}
+#third .search-container input{
+    width: 140px;
+}
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.search{
+    width: 33px;
+    height: 35px;
+}
+#options{
+    margin-left: 605px;
+    margin-top: 55px;
+}
+#main_part{
+    margin: 15px;
+    width: 1518px;
+}
+.pics{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+#pic_1, #pic_5{
+    width: 300px;
+    height: 350px;
+}
+#pic_2, #pic_3, #pic_4, #pic_6, #pic_7, #pic_8{
+    width: 300px;
+    height: 350px;
+    margin-left: 10px;
+}
+.pics img{
+    display: inline-block;
+    padding: 28px;
+}
+
+.price div{
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 10px 160px 0 170px;
+}
+#second_row{
+    margin-bottom: 100px;
+}
+/* footer */
+footer{
+    height: auto;
+    width: 1520px;
+    border-top: 1px solid #b6b6b6;
+    padding-top: 20px;
+}
+#first_part .search-container button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    margin-left: -8px;
+    padding-top: -10px;
+    width: 34px;
+}
+#first_part{
+    float: left;
+    display: inline-block;
+    margin-left: 40px;
+}
+#second_part{
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.main2{
+    height: 420px;
+    margin-left: 85px;
+    margin-right: 50px;
+    margin-top: 100px;
+    font-family: "Calisto MT", "Times New Roman", serif;
+    letter-spacing: 1px;
+}
+#paragraph_one{
+    font-size: 21px;
+}
+#paragraph_two{
+    font-size: 15px;
+}
+#cs{
+    border: 1px solid black;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    font-weight: bold;
+}
